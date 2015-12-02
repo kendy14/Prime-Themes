@@ -109,11 +109,17 @@ div{
 ul li{
 	text-align: center;
  list-style: none;
- padding: 10px 0 10px 0;
+ padding: 20px 0 20px 0;
  border-bottom: 1px solid grey;
 }
 ul li:first-child{
 	padding-top: 30px;
+}
+#price button{
+	background: #222222;
+	color: grey;
+	border:none;
+	padding: 8px 20px;
 }
 .testimonio img{
 	height: 80px;
