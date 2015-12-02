@@ -4,6 +4,16 @@ div{
 .row{
 	margin: 0;
 }
+.header{
+	color: white;
+}
+.header a{
+	color: white !important;
+}
+.launch{
+	height: 200px;
+	width: 500px;
+}
 .container{
 	padding: 0;
 }
