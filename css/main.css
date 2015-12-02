@@ -1,9 +1,7 @@
-/*div{
+div{
 	outline: red solid 1px;
-}*/
-.row{
-	margin: 0;
 }
+
 .header{
 	color: white;
 }
@@ -11,20 +9,19 @@
 	color:#f4f4f4;
 }
 
-
-.container{
-	padding: 0;
-}
 .jumbotron{
 	background-repeat: no-repeat;
 	background: url(../img/background/hero.jpg);
-    background-size: auto;
-    opacity: 25;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bnt{
+	padding-top: 100px;
 }
 .encabezado p{
 	display: inline-block;
 }
-
 .ini{
 	height: 300px;
 	width: 1000px;
@@ -57,10 +54,12 @@
 }
 .grey{
 	background: #E8EDEF;
+
 }
 .img{
-	margin: 20px;
+	margin-top: 20px;
 	background: white !important;
+
 }
 .img img{
 	margin-top: 10px;
@@ -81,6 +80,8 @@
 }
 .call{
     background: url(../img/background/city.jpg)center top;
+   -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
    
     color: white;
@@ -102,17 +103,20 @@
 	background: #009ca8;
 	color: white;
 }
+.gran{
+	font-size: 30px;
+}
 .ce{background-color: #e8edef; padding: 40px 0 40px 0;}
 #price{
 	margin-top: 30px;
 }
-ul li{
+#price ul li{
 	text-align: center;
  list-style: none;
  padding: 20px 0 20px 0;
  border-bottom: 1px solid grey;
 }
-ul li:first-child{
+#price ul li:first-child{
 	padding-top: 30px;
 }
 #price button{
@@ -127,7 +131,10 @@ ul li:first-child{
 }
 #contacto{
 	background: url(../img/background/contactus.jpg);
-	background-size: 100%;
+	-moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 	color: white;
+	background-repeat: no-repeat;
 
 }
