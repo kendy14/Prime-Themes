@@ -7,49 +7,101 @@ div{
 .header{
 	color: white;
 }
-.header a{
-	color: white !important;
+.header a:hover{
+	color:#f4f4f4;
 }
-.launch{
-	height: 200px;
-	width: 500px;
-}
+
+
 .container{
 	padding: 0;
 }
 .jumbotron{
-	background: url(../img/background/hero.jpg) top center;color: white;
-}
-.jumbotron p{
-	display: inline-block;
-	padding: 10px;
+	background-repeat: no-repeat;
+	background: url(../img/background/hero.jpg);
+    background-size: auto;
+    opacity: 25;
 }
 .encabezado p{
 	display: inline-block;
-	padding: 10px;
+}
+
+.ini{
+	height: 300px;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
 }
 .icon, .icon2{
-	margin-top: 20px;
+	margin-top: 100px;
+}
+.icon{
+	margin-top: 50px;
 }
 .more{
 	background-color: #f4f4f4;
 	padding: 50px 0 50px 0;
 	margin: 80px 0 50px 0;
 }
-.more img{
+.more img, {
 	max-width: 80%;
 }
 .media{
 	margin-top: 60px;
 }
+.ico{
+	height: 25px;
+}
+.por{
+	margin-top: 100px;
+	background: #E8EDEF;
+}
+.grey{
+	background: #E8EDEF;
+}
+.img{
+	margin: 20px;
+	background: white !important;
+}
+.img img{
+	margin-top: 10px;
+}
+.img p{
+	margin: 0 auto;
+}
+.grey .btn-primary{
+	color: white;
+	background: grey !important;
+	border-color: grey ! important;
+	margin:60px 0 30px 0;
+	border-radius: none !important;
+}
+
 .center{
 	margin: 0 200px 0 200px;
 }
 .call{
-    background: url(../img/background/city.jpg);
-    background-size: 100%;
-    padding-bottom: 500px;
+    background: url(../img/background/city.jpg)center top;
+    background-size: cover;
+   
     color: white;
+    background-repeat: no-repeat;
+}
+.acti{
+	margin: 0 auto;
+	padding: 100px 100px 100px 100px;
+}
+.pri, .ce{
+	padding:25px 0 25px 0;
+}
+.two{
+	background: #009ca8;
+}
+.ce{background-color: #e8edef;}
+#price{
+	margin-top: 30px;
+}
+ul li{
+
 }
 .testimonio img{
 	height: 80px;
@@ -57,6 +109,6 @@ div{
 }
 #contacto{
 	background: url(../img/background/contactus.jpg);
-	background-size: 100%;
+	background-size: 80%;
 	color: white;
 }
