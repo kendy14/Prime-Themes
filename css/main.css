@@ -54,8 +54,16 @@ filter: brightness(50%);
 	height: 25px;
 }
 .por{
+	padding-top: 30px;
 	margin-top: 100px;
 	background: #E8EDEF;
+}
+.por .list-inline li:hover{
+	-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
 }
 .grey{
 	background: #E8EDEF;
